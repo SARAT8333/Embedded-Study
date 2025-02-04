@@ -1,0 +1,44 @@
+What is the difference between SPI and I2C?
+What is the typical data transfer speed of SPI?
+What are the key advantages and disadvantages of SPI over other communication protocols like I2C or UART?
+Explain the concept of SPI master and slave.
+How does the SPI bus handle multiple devices?
+What are the typical use cases for SPI in embedded systems?
+What is the difference between full-duplex and half-duplex communication?
+Explain the concept of SPI clock polarity (CPOL) and clock phase (CPHA).
+How do you configure the SPI peripheral on a microcontroller?
+What is the purpose of the Chip Select (CS) pin in SPI?
+How do you manage clock polarity and phase when setting up SPI communication?
+What are SPI modes (Mode 0, Mode 1, Mode 2, Mode 3)? Can you explain each?
+How do you configure the baud rate in SPI communication?
+What is the purpose of a buffer when sending data over SPI?
+How would you handle communication with multiple SPI slaves?
+Explain the role of interrupt handling in SPI communication.
+
+Advanced
+What are SPI transactions and how are they managed in a microcontroller?
+What is a "SPI bus contention" and how can it be avoided?
+What is a "SPI clock stretching" mechanism, and how does it work?
+How do you troubleshoot SPI communication problems?
+What are the common issues encountered when working with SPI peripherals?
+Explain the concept of "SPI mode mismatch" and how it affects data transfer.
+How can you optimize SPI communication for high-speed transfers?
+Can SPI be used for bidirectional communication? How?
+How do you handle SPI data transfer errors or bus collisions?
+Explain the difference between SPI in polled mode and interrupt-driven mode.
+What is the maximum data rate supported by SPI, and what factors influence it?
+
+Practical & Problem-solving Questions
+Given a scenario where you need to interface an SPI EEPROM, how would you write the code to read and write data?
+Describe how you would interface an SPI sensor with a microcontroller and process the data.
+How would you manage the SPI transfer if your slave device is only able to receive data one byte at a time?
+How would you troubleshoot an issue where the SPI slave device is not responding correctly, even though the master is sending data?
+In a multi-slave SPI configuration, how do you ensure each slave responds correctly to the master’s request?
+How would you handle a situation where the SPI clock rate of the master is higher than the slave can handle?
+How would you implement a simple SPI-based communication protocol between two devices in embedded firmware?
+How do you ensure proper timing and synchronization in an SPI system with high-speed data transfers?
+
+Practical Experience and Code Snippets
+Can you write a simple code example for SPI communication in an embedded system (e.g., for a specific microcontroller)?
+How would you implement an SPI driver or a library for use in an embedded system?
+Have you ever worked with SPI in a DMA (Direct Memory Access) configuration? How did you set it up?
